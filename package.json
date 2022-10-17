@@ -11,5 +11,8 @@
     "url": "https://github.com/Ali810365/IT122"
   },
   "author": "Ali",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.25.0"
+  }
 }
