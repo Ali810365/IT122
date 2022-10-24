@@ -1,0 +1,8 @@
+To setup a react app, run the command npx create-react-app <app-name>
+create-react-app app named can't contain captilized letters?
+Run npm install command
+React works in components
+components can be small or very large as well
+React uses JSX for markup
+React has its own dom called Reactdom
+
