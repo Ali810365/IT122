@@ -1,0 +1,4 @@
+You can run multiple react projects on different servers
+NPM start can designed to different ports if the intended port is unavailable
+Components basically use props for inputs(these are basically arbitrary)
+(I didn't take too many notes this week mainly because I am famaliar with the material)
