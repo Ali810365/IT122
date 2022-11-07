@@ -20,11 +20,11 @@ app.get('/api/facts', (req,res) => {
     const indexArray = []
     const factsArray = []
     for (let i=0; i < number; i++) {
-        let facts_index = getRandomInt(numFacts);
-        if(factsArray.includes(facts_index) || indexArray.includes(facts_index)){
+        let facts_index = getRandomInt(numFacts); //generate random numbers to pull from data index
+        if(factsArray.includes(facts_index) || indexArray.includes(facts_index)){ //because we don't want duplicate facts we pull a new random number if already pulled once
             facts_index = getRandomInt(numFacts)
         }else {
-            factsArray.push(data[facts_index]);
+            factsArray.push(data[facts_index]); 
             indexArray.push(facts_index);
         }
         
