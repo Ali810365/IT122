@@ -1,0 +1,9 @@
+Express operated with request handlers such as get and post
+Servers work in a request-reponse cycle
+get and post handlers should have a req and res cycle
+The url bar and its parameters are basically the request value?
+Responses come with statues codes, 404 is not found and 200 is ok/good
+The ? follows parameters
+EJS is a view engine that can be used to render dynamic pages 
+
+
