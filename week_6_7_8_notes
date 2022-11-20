@@ -1,0 +1,11 @@
+When dealing with massive data best to setup a database
+Main type of databases include: Rational, In memory, Document, Graph, Time Series
+Relational is the most common type of database
+Database services provided by AWS, Azure, Google Cloud
+MongoDB works well with JS
+MongoDB has 3 choices for database deployment: Serverless, Dedicated, Shared(Free)
+MongoDB allows you to choose cloud provider such as aws, google cloud, azure,
+Price can differ depending on region
+MongoCompass a method of connecting to DB's
+Can create data API to access data
+cURL a method of accessing and fetching data
