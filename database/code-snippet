@@ -1,0 +1,19 @@
+curl --location --request POST 'https://data.mongodb-api.com/app/data-svvbr/endpoint/data/v1/action/findOne' \
+--header 'Content-Type: application/json' \
+--header 'Access-Control-Request-Headers: *' \
+--header 'api-key: sgGAVF8EFHiTuAQf63hCXgih9NYSjiGyB1DCE3yCx2R53h5as4rDSkCjxxUWoOUD' \
+--data-raw '{
+"collection": "listingsAndReviews",
+"database": "sample_airbnb",
+"dataSource": "it122",
+"filter": {
+"property_type": "Apartment"
+},
+"projection": {
+"listing_url": 1,
+"name": 1,
+"summary": 1,
+"property_type": 1,
+"cancellation_policy": 1
+}
+}'
